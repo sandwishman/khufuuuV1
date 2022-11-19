@@ -43,7 +43,7 @@ global.autoRecord = false //auto recording (true to on, false to off)
 global.available = true //auto available (true to on, false to off)
 
 //semt menu variants
-global.vidmenu = fs.readFileSync("./KhufuMedia/theme/Cheems-bot.mp4") //gif and video menu
+global.vidmenu = fs.readFileSync("") //gif and video menu
 
 //documents variants
 global.doc1 = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
@@ -54,33 +54,29 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.vcardowner = ['0015799901537'] //ur owner number
-global.ownername = "Akeskatt" //ur owner name
+global.vcardowner = ['تواجدفوري'] //ur owner number
+global.ownername = "تفعيل" //ur owner name
 global.ytname = "YT: dontknow" //ur yt chanel name
 global.socialm = "o" //ur github or insta name
 global.location = "saudi" //ur location
 
 //bot bomdy 
-global.owner = ['0015799901537']
-global.ownertag = '0015799901537' //ur tag number
+global.owner = ['وضع نشر']
+global.ownertag = 'سيطرة' //ur tag number
 
-global.botname = 'platinum bot' //ur bot name
+global.botname = 'هجومي' //ur bot name
 global.linkz = "" //your theme url which will be displayed on whatsapp
 global.websitex = "" //ur website to be displayed
 global.botscript = '' //script link
 global.reactmoji = "💗" //ur menu react emoji
 global.themeemoji = "🦄" //ur theme emoji
-global.packname = "0015799901537" //ur sticker watermark packname
-global.author = "قروب بلاتنيوم" //ur sticker watermark author
+global.packname = "playing" //ur sticker watermark packname
+global.author = "boting " //ur sticker watermark author
 
 //Bot theme media
-global.thum = fs.readFileSync("./KhufuMedia/theme/cheemspic.jpg") //ur thumb pic
-global.log0 = fs.readFileSync("./KhufuMedia/theme/cheemspic.jpg") //ur logo pic
-global.err4r = fs.readFileSync("./KhufuMedia/theme/cheemspic.jpg") //ur error pic
-global.thumb = fs.readFileSync("./KhufuMedia/theme/cheemspic.jpg") //ur thumb pic
 
 //damtabase
-global.premium = ['201121968769'] //ur premium numbers
+global.premium = ['bot plat.'] //ur premium numbers
 global.ntilinkytvid = []
 global.ntilinkytch = []
 global.ntilinkig = []
@@ -88,7 +84,7 @@ global.ntilinkfb = []
 global.ntilinktg = []
 global.ntilinktt = []
 global.ntilinktwt = []
-global.ntilinkall = []
+global.ntilinkall = [ban]
 global.nticall = []
 global.ntwame = []
 global.nttoxic = []
@@ -102,15 +98,15 @@ global.ntilink = []
 
 //omther
 global.sessionName = 'session'
-global.antitags = false
+global.antitags = true
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
     success: 'تم✓',
-    admin: 'لازم تكون مشرف  ',
-    botAdmin: 'لازم اكون مشرف   ',
+    admin: 'يجب ان تكون مشرف  ',
+    botAdmin: 'للأسف لست مشرف   ',
     owner: 'ميزه ل مالك البوت فقط ',
-    group: 'فقط في رومات ',
+    group: 'فقط في القروبات ',
     private: 'برايفت بس!',
     bot: 'ميزه للبوت فقط',
     wait: 'انتظر ....',
@@ -118,8 +114,8 @@ global.mess = {
     error: 'خطا!!!!',
     endLimit: 'تعال بكره !',
     ban: 'لا استطيع ارسال اي شئ لان مالك قام بحظر هاذا القروب !',
-    nsfw: 'ميزه مقفوله لازم لمشرف يفعلها!',
-    banChat: ''
+    nsfw: 'ميزه مغلقة المشرف فقط يفعلها!',
+    banChat: 'offall'
 }
     global.limitawal = {
     premium: "Infinity",
